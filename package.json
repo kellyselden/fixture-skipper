@@ -22,6 +22,9 @@
     "url": "https://github.com/kellyselden/fixture-skipper/issues"
   },
   "homepage": "https://github.com/kellyselden/fixture-skipper#readme",
+  "dependencies": {
+    "fixturify": "^0.3.4"
+  },
   "devDependencies": {
     "eslint": "^4.7.0",
     "eslint-config-sane": "^0.2.1"
