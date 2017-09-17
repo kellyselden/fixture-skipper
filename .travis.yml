@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '4'
+cache:
+  directories:
+  - "$HOME/.npm"
+deploy:
+  provider: npm
+  email: kellyselden@gmail.com
+  api_key:
+    secure: mxy0d8aTLRUZD1JRYFhz9JwKzewAteUVBO0bq6umIxr9y0lrkDBARkoRloEcg1X6uF4gLSgn4jQ9MsAcESfd7LHbBTeUfyJuW9QeXU+Bg5n+gvkn+Pe1q9MmiqVzkSn4O1P0wI2FTWwXFQDwBPnCBCRGiQuoHPdDhCzl/quq9ap1tUKoU1RWzSYDeKau1f/Y9daJF7cLU6yi2obWzGsp6SG40OQim0QO6y6pzBF0+2L6ToTeuFSJRWaGhPX3MLC+7npMuKXiLngKd7XmvHrqaFc4anoQ9mB20Q9SluR5FYJ+lRLWN2rThrYwgXOPUeAJi+o8mxJsn8/cG46g/HNyt7opvOXgJByE2yV4WKd5ip937LrAGbhsvomYRkFxTzZ2S+6hrq1MAC/AYfWNnkzTdD3CJ7+y3EuCvqZQU1U+6mlDJpv410NySTma7U89KTaCQsmwVf4KG8YugPUrRrwupMhWGI85F7qnFLkO67XSklzM1K5omTLgwUSQHdMZcoQNfy2muUIwgh+eNGVOju1l3ISWBkF4LMhuKQq5+kE9VNVW7h0goIsGQqGSxi+pw7Gxutl9fzTyrOvZ3YcZ/ik13XPih/cel7NZFthL/P9pS1Dutn8uGRAdp3IT9I7arxqCEWvLHV11MDORpgKblAT+wgi1b4G8vq/pRb4G/a9X5tc=
+  on:
+    tags: true
+    repo: kellyselden/fixture-skipper
