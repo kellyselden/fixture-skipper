@@ -1,6 +1,6 @@
 {
   "name": "fixture-skipper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "skip fixture tests with \"_\" prefix",
   "main": "src/index.js",
   "scripts": {
