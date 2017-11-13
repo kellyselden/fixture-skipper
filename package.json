@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "eslint": "^4.7.0",
-    "eslint-config-sane": "^0.2.1"
+    "eslint-config-sane": "^0.3.0"
   }
 }
