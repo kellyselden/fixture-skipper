@@ -22,6 +22,9 @@
     "url": "https://github.com/kellyselden/fixture-skipper/issues"
   },
   "homepage": "https://github.com/kellyselden/fixture-skipper#readme",
+  "engines": {
+    "node": ">=6"
+  },
   "dependencies": {
     "fixturify": "^0.3.4"
   },
