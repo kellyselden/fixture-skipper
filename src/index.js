@@ -11,7 +11,7 @@ module.exports = function fixtureSkipper(fixturesPath) {
     let testCount = 0;
 
     fixtures.forEach(fixtureDir => {
-      let it = global.it;
+      let { it } = global;
       if (fixtureDir.indexOf('_') === 0) {
         it = it.only;
       }
