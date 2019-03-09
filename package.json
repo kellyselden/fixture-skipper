@@ -26,7 +26,7 @@
     "node": ">=6"
   },
   "dependencies": {
-    "fixturify": "^0.3.4"
+    "fixturify": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^5.0.0",
