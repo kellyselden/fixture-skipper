@@ -29,7 +29,7 @@
     "fixturify": "^1.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.0.0",
+    "eslint": "^6.5.1",
     "eslint-config-sane": "^0.8.5",
     "eslint-plugin-prefer-let": "^1.0.1"
   }
